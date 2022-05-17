@@ -57,28 +57,28 @@
           <h2>Follow Us</h2>
           <ul>
             <li>
-              <a href=""
+              <a href="https://www.facebook.com/dc"
                 ><img src="../assets/img/footer-facebook.png" alt=""
               /></a>
             </li>
             <li>
-              <a href=""
+              <a href="https://twitter.com/dccomics"
                 ><img src="../assets/img/footer-twitter.png" alt=""
               /></a>
             </li>
             <li>
-              <a href=""
+              <a href="http://www.youtube.com/user/DCEntertainmentTV"
                 ><img src="../assets/img/footer-youtube.png" alt=""
               /></a>
             </li>
             <li>
-              <a href=""
-                ><img src="../assets/img/footer-periscope.png" alt=""
+              <a href="http://www.pinterest.com/dccomics/"
+                ><img src="../assets/img/footer-pinterest.png" alt=""
               /></a>
             </li>
             <li>
-              <a href=""
-                ><img src="../assets/img/footer-pinterest.png" alt=""
+              <a href="https://www.periscope.tv/DCComics"
+                ><img src="../assets/img/footer-periscope.png" alt=""
               /></a>
             </li>
           </ul>
@@ -110,7 +110,7 @@ export default {};
     color: grey;
 
     &:hover {
-      color: white;
+      color: #0282f9;
       cursor: pointer;
     }
   }

@@ -52,4 +52,12 @@ button {
     color: white;
     cursor: pointer;
     font-weight: 700;
+    transition-duration: .3s;
+    transition-property: background-color;
+    transition-timing-function: ease;
+    width: 150px;
+
+    &:hover {
+      background: #0282f9;
+    }
   }
