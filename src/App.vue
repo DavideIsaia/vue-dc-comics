@@ -23,18 +23,19 @@ export default {
 <style lang="scss">
 @import "./style/common.scss";
 main {
-  height: 100px;
+  margin-top: 5px;
+  height: 150px;
   background-color: #1c1c1c;
   color: white;
   text-align: center;
-  line-height: 100px;
+  line-height: 150px;
 }
 
 .blue-banner {
-  height: 300px;
+  height: 150px;
   background-color: #0282f9;
   color: white;
   text-align: center;
-  line-height: 100px;
+  line-height: 150px;
 }
 </style>
