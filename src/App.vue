@@ -27,7 +27,7 @@ export default {
 
 main {
   margin-top: 2px;
-  height: 150px;
+  height: 300px;
   background-color: #1c1c1c;
   color: white;
   text-align: center;
