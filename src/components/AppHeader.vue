@@ -23,52 +23,52 @@ export default {
       headerLinks: [
         {
           url: "#",
-          text: "Link",
+          text: "Characters",
           active: false,
         },
         {
           url: "#",
-          text: "Link",
+          text: "Comics",
           active: false,
         },
         {
           url: "#",
-          text: "Link",
+          text: "Movies",
           active: false,
         },
         {
           url: "#",
-          text: "Link",
+          text: "TV",
           active: false,
         },
         {
           url: "#",
-          text: "Link",
+          text: "Games",
           active: false,
         },
         {
           url: "#",
-          text: "Link",
+          text: "Collectibles",
           active: false,
         },
         {
           url: "#",
-          text: "Link",
+          text: "Videos",
           active: false,
         },
         {
           url: "#",
-          text: "Link",
+          text: "Fans",
           active: false,
         },
         {
           url: "#",
-          text: "Link",
+          text: "News",
           active: false,
         },
         {
           url: "#",
-          text: "Link",
+          text: "Shop",
           active: false,
         },
       ],
@@ -80,10 +80,35 @@ export default {
 <style lang="scss" scoped>
 header {
   display: flex;
+  flex-wrap: nowrap;
   justify-content: space-between;
+  height: 120px;
+
+  img {
+    padding: 1rem;
+  }
+
+  ul {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
 
   li {
     display: inline-block;
+    margin: 0 1rem;
+    text-transform: uppercase;
+    line-height: 120px;
+    border-bottom: 5px solid transparent;
+    cursor: pointer;
+
+    &:hover {
+      border-bottom: 5px solid #0282f9;
+
+      a {
+        color: #0282f9;
+      }
+    }
   }
 }
 </style>
