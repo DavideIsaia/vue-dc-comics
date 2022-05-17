@@ -23,7 +23,7 @@ export default {
 <style lang="scss">
 @import "./style/common.scss";
 main {
-  margin-top: 5px;
+  margin-top: 2px;
   height: 150px;
   background-color: #1c1c1c;
   color: white;

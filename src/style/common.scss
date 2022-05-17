@@ -14,6 +14,9 @@ html {
 .container {
     width: 80%;
     margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 img {
@@ -28,3 +31,25 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
+h2 {
+  color: #0282f9;
+  text-transform: uppercase;
+  margin-right: 2rem;  
+}
+
+h3 {
+    text-transform: uppercase;
+    color: white;
+    padding: 1rem 0;
+  }
+
+button {
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 2px solid #0282f9;
+    padding: 1rem 1rem;
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+  }
