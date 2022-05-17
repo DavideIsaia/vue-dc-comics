@@ -2,13 +2,14 @@
   <div id="app">
     <AppHeader />
     <main>Content goes here</main>
-    <div class="blue-banner">Bonus</div>
+    <BlueBanner />
     <AppFooter />
   </div>
 </template>
 
 <script>
 import AppHeader from "./components/AppHeader.vue";
+import BlueBanner from "./components/BlueBanner.vue";
 import AppFooter from "./components/AppFooter.vue";
 
 export default {
@@ -16,24 +17,18 @@ export default {
   components: {
     AppHeader,
     AppFooter,
+    BlueBanner,
   },
 };
 </script>
 
 <style lang="scss">
 @import "./style/common.scss";
+
 main {
   margin-top: 2px;
   height: 150px;
   background-color: #1c1c1c;
-  color: white;
-  text-align: center;
-  line-height: 150px;
-}
-
-.blue-banner {
-  height: 150px;
-  background-color: #0282f9;
   color: white;
   text-align: center;
   line-height: 150px;
