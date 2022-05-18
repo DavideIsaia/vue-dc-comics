@@ -119,11 +119,11 @@ export default {
 }
 
 .comics {
-  margin-top: 2px;
   background-color: #1c1c1c;
   color: white;
   text-align: center;
   padding: 1rem;
+
   h3 {
     position: absolute;
     top: -40px;
@@ -133,6 +133,7 @@ export default {
     padding: 0.8rem 2rem;
     z-index: 2;
   }
+
   &__list {
     display: flex;
     flex-wrap: wrap;

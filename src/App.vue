@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <AppHeader />
+    <img class="jumbo" src="./assets/img/jumbotron.jpg" alt="jumbo" />
     <DcList />
     <BlueBanner />
     <AppFooter />
@@ -27,12 +28,11 @@ export default {
 <style lang="scss">
 @import "./style/common.scss";
 
-main {
+.jumbo {
   margin-top: 2px;
-  height: 300px;
-  background-color: #1c1c1c;
-  color: white;
-  text-align: center;
-  line-height: 150px;
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  object-position: top;
 }
 </style>
