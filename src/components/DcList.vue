@@ -1,7 +1,7 @@
 <template>
   <section class="comics">
     <div class="container">
-      <h3>Currrent Series</h3>
+      <h3 class="comics__blue">Currrent Series</h3>
       <div class="comics__list">
         <AppComics
           v-for="(element, index) in comics"
@@ -10,6 +10,7 @@
         />
       </div>
     </div>
+    <button class="comics__btn">Load More</button>
   </section>
 </template>
 
@@ -124,7 +125,7 @@ export default {
   text-align: center;
   padding: 1rem;
 
-  h3 {
+  &__blue {
     position: absolute;
     top: -40px;
     left: 0;
@@ -138,6 +139,12 @@ export default {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+  }
+
+  &__btn {
+    display: inline-block;
+    background-color: #0282f9;
+    padding: 0.5rem 2.5rem;
   }
 }
 </style>

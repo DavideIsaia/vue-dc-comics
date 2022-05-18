@@ -4,6 +4,7 @@
     <nav>
       <ul>
         <li
+          @click="isActive(index)"
           v-for="(element, index) in headerLinks"
           :key="index"
           :class="{ active: element.active }"
@@ -74,6 +75,14 @@ export default {
       ],
     };
   },
+  methods: {
+    isActive: function (index) {
+      this.headerLinks.forEach((element, index) => {
+        this.headerLinks[index].active = false;
+      });
+      this.headerLinks[index].active = !this.headerLinks[index].active;
+    },
+  },
 };
 </script>
 
@@ -102,6 +111,7 @@ header {
     border-bottom: 5px solid transparent;
     cursor: pointer;
 
+    &.active,
     &:hover {
       border-bottom: 5px solid #0282f9;
 

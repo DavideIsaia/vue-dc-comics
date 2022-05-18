@@ -30,6 +30,7 @@ export default {
 
 .jumbo {
   margin-top: 2px;
+  margin-bottom: -4px;
   width: 100%;
   height: 450px;
   object-fit: cover;
