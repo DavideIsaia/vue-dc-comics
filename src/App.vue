@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <AppHeader />
-    <main>Content goes here</main>
+    <DcList />
     <BlueBanner />
     <AppFooter />
   </div>
@@ -11,6 +11,7 @@
 import AppHeader from "./components/AppHeader.vue";
 import BlueBanner from "./components/BlueBanner.vue";
 import AppFooter from "./components/AppFooter.vue";
+import DcList from "./components/DcList.vue";
 
 export default {
   name: "App",
@@ -18,6 +19,7 @@ export default {
     AppHeader,
     AppFooter,
     BlueBanner,
+    DcList,
   },
 };
 </script>
