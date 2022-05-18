@@ -114,19 +114,29 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.container {
+  position: relative;
+}
+
 .comics {
   margin-top: 2px;
   background-color: #1c1c1c;
   color: white;
   text-align: center;
-  padding: 3rem;
+  padding: 1rem;
   h3 {
+    position: absolute;
+    top: -40px;
+    left: 0;
     text-align: center;
-    margin-bottom: 2rem;
+    background-color: #0282f9;
+    padding: 0.8rem 2rem;
+    z-index: 2;
   }
   &__list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
   }
 }
 </style>
